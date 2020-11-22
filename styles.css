@@ -1,0 +1,64 @@
+.navbar {
+    /*text-align: center;
+    color: aqua;
+    font-weight: 500;
+    background-color: green;*/
+}
+.btn-success {
+    background-color: #025157;
+    border: none;
+}
+
+.verde-matcha{
+    color: #025157;
+}
+
+.sign {
+    margin-right: 15px;
+    
+    color: #025157;;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.group__card1 .card {
+  border: 0;
+}
+
+.group__card1 .card-header {
+  box-shadow: 0 8px 24px rgba(0,0,0,.1);
+  border: 1px solid #dadada;
+  background-color: transparent;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.group__card1 img {
+  transition: all .3s ease-in-out;
+}
+
+.group__card1 img:hover {
+  transform: scale(1.03) rotate(.3deg);
+}
+  
+.card a:hover {
+  color: #67B54B;
+}
+.carousel-item .col-12 .card img {
+  height: 16vw;
+}
+
+#tools img {
+  max-width: 38px;
+}
+
+.my-card-icon{
+    height: 26px!important;
+    width: 26px;
+}
+
