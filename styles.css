@@ -67,3 +67,60 @@ a {
     background-color: #67B54B;
     color: white;
 }
+
+#brands > img{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.btn-link{
+    background-color: #67B54B;
+    border: none;
+    color: white;
+}
+
+.btn-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#actions > button{
+    margin-right: 0.75rem;
+}
+
+#actions > img{
+    margin-left: 0.75rem;
+}
+
+.img-wrapper {
+    position: relative;
+   }
+  
+  .img-responsive {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .img-overlay:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 50%;
+  }
+
+  .img-overlay button{
+      opacity: .75;
+  }
+
+  .img-overlay button i {
+      display: block;
+  }
