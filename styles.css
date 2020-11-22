@@ -62,3 +62,8 @@ a {
     width: 26px;
 }
 
+
+.carousel-item .col-12 .card:hover a{
+    background-color: #67B54B;
+    color: white;
+}
