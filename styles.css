@@ -13,6 +13,15 @@
     color: #025157;
 }
 
+.verde-matcha-border{
+    border-color: #025157;
+}
+
+.verde-matcha-bg{
+    background-color: #025157;
+}
+
+
 .sign {
     margin-right: 15px;
     
@@ -123,4 +132,9 @@ a {
 
   .img-overlay button i {
       display: block;
+  }
+
+  article ul {
+      list-style-type: none;
+      padding: 0px;
   }
