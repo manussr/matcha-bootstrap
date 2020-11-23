@@ -1,38 +1,37 @@
 .navbar {
-    /*text-align: center;
+  /*text-align: center;
     color: aqua;
     font-weight: 500;
     background-color: green;*/
 }
 .btn-success {
-    background-color: #025157;
-    border: none;
+  background-color: #025157;
+  border: none;
 }
 
-.verde-matcha{
-    color: #025157;
+.verde-matcha {
+  color: #025157;
 }
 
-.verde-matcha-border{
-    border-color: #025157;
+.verde-matcha-border {
+  border-color: #025157;
 }
 
-.verde-matcha-bg{
-    background-color: #025157;
+.verde-matcha-bg {
+  background-color: #025157;
 }
-
 
 .sign {
-    margin-right: 15px;
-    
-    color: #025157;;
+  margin-right: 15px;
+  font-size: 16px;
+  color: #025157;
 }
 
 a {
-    text-decoration: none !important;
-    color: black;
-    font-size: 24px;
-    font-weight: 500;
+  text-decoration: none !important;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .group__card1 .card {
@@ -40,7 +39,7 @@ a {
 }
 
 .group__card1 .card-header {
-  box-shadow: 0 8px 24px rgba(0,0,0,.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   border: 1px solid #dadada;
   background-color: transparent;
   border-radius: 9px;
@@ -48,15 +47,15 @@ a {
 }
 
 .group__card1 img {
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .group__card1 img:hover {
-  transform: scale(1.03) rotate(.3deg);
+  transform: scale(1.03) rotate(0.3deg);
 }
-  
+
 .card a:hover {
-  color: #67B54B;
+  color: #67b54b;
 }
 .carousel-item .col-12 .card img {
   height: 16vw;
@@ -66,75 +65,143 @@ a {
   max-width: 38px;
 }
 
-.my-card-icon{
-    height: 26px!important;
-    width: 26px;
+.my-card-icon {
+  height: 26px !important;
+  width: 26px;
 }
 
-
-.carousel-item .col-12 .card:hover a{
-    background-color: #67B54B;
-    color: white;
+.carousel-item .col-12 .card:hover a {
+  background-color: #67b54b;
+  color: white;
 }
 
-#brands > img{
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+#brands > img {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
-.btn-link{
-    background-color: #67B54B;
-    border: none;
-    color: white;
+.btn-link {
+  background-color: #67b54b;
+  border: none;
+  color: white;
 }
 
-.btn-link:hover{
-    text-decoration: none;
-    color: white;
+.btn-link:hover {
+  text-decoration: none;
+  color: white;
 }
 
-#actions > button{
-    margin-right: 0.75rem;
+#actions > button {
+  margin-right: 0.75rem;
 }
 
-#actions > img{
-    margin-left: 0.75rem;
+#actions > img {
+  margin-left: 0.75rem;
 }
 
 .img-wrapper {
-    position: relative;
-   }
-  
-  .img-responsive {
-    width: 100%;
-    height: auto;
-  }
-  
-  .img-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  
-  .img-overlay:before {
-    content: ' ';
-    display: block;
-    /* adjust 'height' to position overlay content vertically */
-    height: 50%;
-  }
+  position: relative;
+}
 
-  .img-overlay button{
-      opacity: .75;
-  }
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
 
-  .img-overlay button i {
-      display: block;
-  }
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
 
-  article ul {
-      list-style-type: none;
-      padding: 0px;
-  }
+.img-overlay:before {
+  content: " ";
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.img-overlay button {
+  opacity: 0.75;
+}
+
+.img-overlay button i {
+  display: block;
+}
+
+article ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#socialmedia {
+  display: inline;
+}
+
+#socialmedia > a {
+  margin-left: .45rem;
+  margin-right: .45rem;
+}
+
+.nav-item .nav-link{
+    color: #025157!important;
+}
+
+.texto{
+    color: #c8c8c8;
+    margin-top: .5rem;
+}
+
+.title-matcha{
+    font-family: vesterbroextrabold,Arial,sans-serif!important;
+    font-weight: 400!important;
+    font-size: 36px!important;
+    color: #025157!important;
+}
+
+.list-footer > li > a{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.list-footer > li > a:hover{
+    color: #6abf4b;
+}
+
+body{
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+}
+
+.verde-matcha-bg article p a{
+    text-decoration: none;
+    color: #6abf4b;
+    font-size: 16px;
+}
+
+.texto-7e{
+    color: #7e7e7e;
+}
+
+.texto-4a{
+    color: #4A4A4A;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    opacity: .4;
+}
+
+.texto-main{
+    font-size: 20px;
+    color: #46484c;
+}
+
+.blog-better{
+    color: rgba(139,139,139,.8);
+    font-size: 14px;
+}
+
+.navbar-nav li a{
+    font-size: 16px;
+}
